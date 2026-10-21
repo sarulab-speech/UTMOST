@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Model weights are distributed through the Hugging Face Hub, and no audio or rating data
+# belongs in this repository.
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.csv
